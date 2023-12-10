@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Inter;
+}
+body{
+    background-color: black;
+}
+a{
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    max-width: 200px;
+    margin: auto;
+}
+
+.landing-page{
+    max-width: 1440px;
+    padding-block: 2% 3%;
+    margin: auto;
+    background-color: black;
+    height: 100dvh;
+}
+.for-button{
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-inline: 4%;
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: none;
+    background: #CDFC54;
+    margin-bottom: 2.3rem;
+    
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+.world-map{
+    max-width: 1440px;
+    margin: auto;
+}
+img[src*="World-Map-mobile"]{
+    display: none;
+}
+.for-mail{
+    margin-top: 2.4rem;
+    text-align: center;
+    padding-inline: 4%;
+}
+@media screen and (max-width: 1036px){
+    img[src*="World-Map-mobile"]{
+        display: block;
+    }
+    img[src*="cursorprimary_logo-svg"]{
+        width: 70%;
+    }
+    img[src*="WorldMap"]{
+        display: none;
+    }
+    .landing-page{
+        padding-block: 22% 5%;
+    }
+    .for-button{
+        margin-bottom: 72px;
+    }
+
+}
