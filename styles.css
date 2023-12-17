@@ -18,10 +18,10 @@ a{
 
 .landing-page{
     max-width: 1440px;
-    padding-block: 2% 3%;
+    padding-block: 2rem 1rem;
     margin: auto;
     background-color: black;
-    height: 100dvh;
+    height: 100vh;
 }
 .for-button{
     max-width: 300px;
@@ -58,6 +58,15 @@ img[src*="World-Map-mobile"]{
     justify-content: center;
     gap: 0.5rem;
     padding-inline: 4%;
+    
+}
+.for-mail a{
+    transition: all 0.3s;
+}
+.for-mail a:hover{
+    color: #CDFC54;
+    transform: scale(1.05);
+    
 }
 @media screen and (max-width: 1036px){
     img[src*="World-Map-mobile"]{
